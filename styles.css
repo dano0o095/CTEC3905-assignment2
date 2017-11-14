@@ -1,7 +1,26 @@
+.container{
+  width: 100%;
+  margin-bottom:20px;
+  background-color: cadetblue;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-width: thick;
+  border-bottom-color: firebrick;
+}
+
+.sideBar ul{
+  list-style-type: none;
+}
+
 body{
-    background-color: black;
+   // background-color: #00001b;
+}
+
+h1{
+  color: white;
+  margin: 0px;
 }
 
 p{
-    color: white;
+  color: white;
 }
