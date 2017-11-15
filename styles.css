@@ -8,12 +8,21 @@
   border-bottom-color: firebrick;
 }
 
+.sideBar{
+	background-color: #754087;
+}
+
 .sideBar ul{
   list-style-type: none;
 }
 
+hr{
+  width: 90%;
+}
+
 body{
    // background-color: #00001b;
+	//background-color: #123456;
 }
 
 h1{
@@ -24,3 +33,4 @@ h1{
 p{
   color: white;
 }
+
