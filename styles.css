@@ -1,36 +1,114 @@
+/*
+
 .container{
-  width: 100%;
+  max-width: 60%;
   margin-bottom:20px;
   background-color: cadetblue;
   padding-top: 4px;
   padding-bottom: 4px;
   border-bottom-width: thick;
   border-bottom-color: firebrick;
+  min-height: inherit;
+  max-width: 60%;
+  float: right;
 }
 
-.sideBar{
-	background-color: #754087;
+.sideBar{ 
+  overflow: hidden;
+  margin-right: 40px;
+  background-color: #754087;
 }
+
 
 .sideBar ul{
   list-style-type: none;
 }
+*/
 
-hr{
-  width: 90%;
+
+
+
+
+
+
+
+/*FIRST BREAK POINT FOR MOBILE WIDTH*/
+@media only screen and (max-device-width: 480px) {
+  
+/*GLOBAL STYLE*/
+
+  body{
+    background-color: #00001b;
+    background-color: #123456;
+    color: white;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  hr{
+  width: 90%;  
+  border: 1px solid #436d70;
 }
 
-body{
-   // background-color: #00001b;
-	//background-color: #123456;
-}
 
-h1{
-  color: white;
-  margin: 0px;
-}
+  h1{
+    color: white;
+    margin: 0px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+/*  PROFILE STYLES*/
+  .profile{
+    background-color: #754087;
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+  }
+  
+  .profile img{
+    width: 65%;
+    margin: auto;
+    padding-top: 3%;
+    display: block;
+  }
 
-p{
-  color: white;
-}
+  .firstWord{
+    color: orange;
+  }
+  
+  .profile ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .profile h2{
+    font-size: 80px;
+    text-align: center;
+    margin-top: -95px;
+  }
+  
+  .profile h3{
+    font-size: 40px;
+    text-align:center;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+/*  MAIN BODY STYLES*/
+  .main{
+    background-color: cadetblue;
+  }
 
+}
