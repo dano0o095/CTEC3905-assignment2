@@ -70,6 +70,7 @@
     background-color: #754087;
     margin-bottom: 10%;
     padding-bottom: 2%;
+    box-shadow: 15px 15px 25px #4b2957;
   }
   
   .profile img{
@@ -109,6 +110,7 @@
 /*  MAIN BODY STYLES*/
   .main{
     background-color: cadetblue;
+    box-shadow: 15px 15px 25px #436e70;
   }
 
 }
