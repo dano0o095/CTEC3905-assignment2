@@ -31,14 +31,10 @@
 
 
 
-
-/*FIRST BREAK POINT FOR MOBILE WIDTH*/
-@media only screen and (max-device-width: 480px) {
   
-/*GLOBAL STYLE*/
+/*GLOBAL STYLES*/
 
   body{
-    background-color: #00001b;
     background-color: #123456;
     color: white;
     max-width: 75%;
@@ -48,9 +44,10 @@
   }
   
   hr{
-  width: 90%;  
-  border: 1px solid #436d70;
-}
+    width: 90%;  
+    border: 1px solid #436d70;
+    margin:3%;
+  }
 
 
   h1{
@@ -58,6 +55,29 @@
     margin: 0px;
   }
   
+  
+  
+  
+  
+  
+/*  NAV BAR*/
+  .nav{
+    position: fixed;
+    background-color:#bfd8d9;
+    margin-bottom: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding-right: 15px;
+    border-bottom: 5px solid  #395e60;
+  }
+  
+  .nav li{
+    list-style-type: none;
+    display:inline;
+    font-size: 40px;
+    margin-left: 15px;
+  }
   
   
   
@@ -87,6 +107,7 @@
   .profile ul {
     list-style-type: none;
     text-align: center;
+    color: #e0e0e0;
   }
   
   .profile h2{
@@ -111,6 +132,31 @@
   .main{
     background-color: cadetblue;
     box-shadow: 15px 15px 25px #436e70;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .main h1{
+    font-size: 70px;
   }
 
+.main p{
+  color: #e0e0e0;
 }
+  
+  .main .pDate{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+.main table{
+  font-size: 30px;
+}
+
+.main table td{
+  padding: 3%;
+  color: #e0e0e0;
+}
+
+
