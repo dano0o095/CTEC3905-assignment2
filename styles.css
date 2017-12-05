@@ -1,165 +1,144 @@
-/*
-
-.container{
-  max-width: 60%;
-  margin-bottom:20px;
-  background-color: cadetblue;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-bottom-width: thick;
-  border-bottom-color: firebrick;
-  min-height: inherit;
-  max-width: 60%;
-  float: right;
-}
-
-.sideBar{ 
-  overflow: hidden;
-  margin-right: 40px;
-  background-color: #754087;
-}
 
 
-.sideBar ul{
-  list-style-type: none;
-}
-*/
-
-
-
-
-
-
-
-  
+/*MOBILE SIZING*/
+@media(max-device-width:480px){
 /*GLOBAL STYLES*/
 
-  body{
-    background-color: #123456;
-    color: white;
-    margin: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-  
-  hr{
-    width: 90%;  
-    border: 1px solid #436d70;
-    margin:3%;
-  }
+    body{
+      background-color: #123456;
+      color: white;
+      margin: auto;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+
+    hr{
+      width: 90%;  
+      border: 1px solid #436d70;
+      margin:3%;
+    }
 
 
-  h1{
-    color: white;
-    margin: 0px;
-  }
-  
-  
-  
-  
-  
-  
-/*  NAV BAR*/
-  .nav{
-    position: fixed;
-    background-color:#bfd8d9;
-    margin-top: -100px;
-    margin-bottom: 3%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left:15px;
-    padding-right: 15px;
-    border-bottom: 5px solid  #395e60;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .nav a{
-    font-size: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  
-  
-  
-  
-  
-  
-  
-/*  PROFILE STYLES*/
-  .profile{
-    background-color: #754087;
-    margin-top: 100px;
-    margin-bottom: 10%;
-    padding-bottom: 2%;
-    box-shadow: 15px 15px 25px #4b2957;
-  }
-  
-  .profile img{
-    width: 65%;
-    margin: auto;
-    padding-top: 3%;
-    display: block;
-  }
+    h1{
+      color: white;
+      margin: 0px;
+    }
 
-  .firstWord{
-    color: orange;
-  }
-  
-  .profile ul {
-    list-style-type: none;
-    text-align: center;
+
+
+
+
+
+  /*  NAV BAR*/
+    .nav{
+      position: fixed;
+      background-color:#bfd8d9;
+      margin-top: -100px;
+      margin-bottom: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left:15px;
+      padding-right: 15px;
+      border-bottom: 5px solid  #395e60;
+      text-align: center;
+      width: 100%;
+    }
+
+    .nav a{
+      font-size: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+
+
+
+
+
+
+  /*  PROFILE STYLES*/
+    .profile{
+      background-color: #754087;
+      margin-top: 100px;
+      margin-bottom: 10%;
+      padding-bottom: 2%;
+      box-shadow: 15px 15px 25px #4b2957;
+    }
+
+    .profile img{
+      width: 65%;
+      margin: auto;
+      padding-top: 3%;
+      display: block;
+    }
+
+    .firstWord{
+      color: orange;
+    }
+
+    .profile ul {
+      list-style-type: none;
+      text-align: center;
+      color: #e0e0e0;
+    }
+
+    .profile h2{
+      font-size: 80px;
+      text-align: center;
+      margin-top: -95px;
+    }
+
+    .profile h3{
+      font-size: 40px;
+      text-align:center;
+
+    }
+
+
+
+
+
+
+
+  /*  MAIN BODY STYLES*/
+    .main{
+      background-color: cadetblue;
+      box-shadow: 15px 15px 25px #436e70;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    .main h1{
+      font-size: 70px;
+    }
+
+  .main p{
     color: #e0e0e0;
   }
-  
-  .profile h2{
-    font-size: 80px;
-    text-align: center;
-    margin-top: -95px;
-  }
-  
-  .profile h3{
-    font-size: 40px;
-    text-align:center;
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-/*  MAIN BODY STYLES*/
-  .main{
-    background-color: cadetblue;
-    box-shadow: 15px 15px 25px #436e70;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  
-  .main h1{
-    font-size: 70px;
+
+    .main .pDate{
+      background-color: orange;
+      padding: 8px;
+      border-radius: 14px;
+    }
+
+  .main table{
+    font-size: 30px;
   }
 
-.main p{
-  color: #e0e0e0;
-}
-  
-  .main .pDate{
-    background-color: orange;
-    padding: 8px;
-    border-radius: 14px;
+  .main table td{
+    padding: 3%;
+    color: #e0e0e0;
   }
 
-.main table{
-  font-size: 30px;
 }
 
-.main table td{
-  padding: 3%;
-  color: #e0e0e0;
-}
+
+
+
+
+
+
 
 
 
@@ -175,9 +154,25 @@
   body{
     float:left;
     margin:auto;
+    background-color: #123456;
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
   
 
+    hr{
+      width: 90%;  
+      border: 1px solid #436d70;
+      margin:3%;
+    }
+
+
+    h1{
+      color: white;
+      margin: 0px;
+    }
   
   
   
@@ -186,10 +181,24 @@
   .nav{
     width:100%;
     margin: auto;
+    margin-top: -3%;
     text-align: center;
+    position: fixed;
+    background-color:#bfd8d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    border-bottom: 5px solid  #395e60;
+    width: 100%;
   }
   
-  
+    .nav a{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   
   
   
@@ -197,21 +206,105 @@
   
   /*  PROFILE STYLES*/
   .profile{
-    width:30%;
+    background-color: #754087;
+    margin-top: 6%;
+    margin-bottom: 100%;
     margin-right: 30px;
+    padding-bottom: 2%;
+    width:30%;
     float:left;
+    box-shadow: 15px 15px 25px #4b2957;
   }
   
+  .profile img{
+    width:45%;
+    margin-left: 60px;
+    padding-top: 3%;
+  }
   
+  .profile h2{
+    text-align: center;
+    font-size: 40px;
+    margin-left:190px;
+    margin-top: -150px;
+    margin-bottom: 140px;
+    transform: rotate(270deg);
+  }
+
+  .profile h3{
+    font-size: 30px;
+
+  }
+
+  .firstWord{
+    color: orange;
+  }
+
+  .profile ul{
+    list-style-type: none;
+    color: #e0e0e0;
+  } 
+  
+  .profList{    
+    background-size: 20px;
+    background-repeat: no-repeat;
+	background-position: left center;
+    padding-left: 32px;
+    font-size: 25px;
+    line-height: 1.9;
+  }
+  
+  .work{
+    background-image: url("./imgs/briefcase.png");
+  }
+  
+  .education{
+    background-image: url("./imgs/education.png");
+  }
+  
+  .phone{
+    background-image: url("./imgs/phone.png");
+  }
+  
+  .email{
+    background-image: url("./imgs/email.png");
+  }
   
   
   
   
 /*  MAIN BODY STYLES*/
   .main{
+    background-color: cadetblue;
+    box-shadow: 15px 15px 25px #436e70;
     overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 100px;
     width:60%;
+  }
+
+  .main h1{
+    font-size: 70px;
+  }
+
+  .main p{
+    color: #e0e0e0;
+  }
+
+  .main .pDate{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+  .main table{
+    font-size: 30px;
+  }
+
+  .main table td{
+    padding: 3%;
+    color: #e0e0e0;
   }
   
 
