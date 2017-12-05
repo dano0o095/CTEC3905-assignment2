@@ -157,7 +157,6 @@
     background-color: #123456;
     color: white;
     margin: auto;
-    margin-top: 3%;
     margin-bottom: 3%;
   }
   
@@ -174,16 +173,22 @@
       margin: 0px;
     }
   
-  
+/*  HEADER IMAGE */
+  .headerImg{
+    width: 100%;
+    height: 400px;
+  }
+  .headerImg img{
+   height: 100%;
+    width: 100%
+  }
   
   
 /*  NAV STYLES*/
   .nav{
     width:100%;
     margin: auto;
-    margin-top: -3%;
     text-align: center;
-    position: fixed;
     background-color:#bfd8d9;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -232,6 +237,7 @@
   }
 
   .profile h3{
+    margin-left: 20px;
     font-size: 30px;
 
   }
@@ -245,7 +251,11 @@
     color: #e0e0e0;
   } 
   
-  .profList{    
+  #prof{
+    margin-top: -50px;
+  }
+  
+  .profList{  
     background-size: 20px;
     background-repeat: no-repeat;
 	background-position: left center;
@@ -280,7 +290,7 @@
     overflow: hidden;
     padding-left: 2%;
     padding-right: 2%;
-    margin-top: 100px;
+    margin-top: 6%;
     width:60%;
   }
 
