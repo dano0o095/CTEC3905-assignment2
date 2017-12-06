@@ -34,12 +34,12 @@
 
 /*  HEADER IMAGE */
   .headerImg{
-    height: 400px;
+    visibility: hidden;
   }
   .headerImg img{
     height: 100%;
     width: 100%;
-    margin-top: -26px;
+    margin-top: -50%;
   }
   
   
