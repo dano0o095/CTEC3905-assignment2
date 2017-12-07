@@ -1,3 +1,15 @@
+/*FONT IMPORTS FROM FONTS.GOOGLE*/
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
+
+
+html, body{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+h1, h2, h3{
+font-family: 'Syncopate', sans-serif;
+}
 /*.image-size img{
   max-width: 100%;
   height:auto;
@@ -48,7 +60,7 @@
     .nav{
       position: fixed;
       background-color:#bfd8d9;
-      margin-top: -100px;
+      margin-top: -102px;
       margin-bottom: 3%;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -98,7 +110,7 @@
     }
 
     .profile h2{
-      font-size: 80px;
+      font-size: 70px;
       text-align: center;
       margin-top: -95px;
     }
@@ -123,6 +135,7 @@
       padding-right: 2%;
       padding-bottom: 3%;
       margin-bottom: 5%;
+      text-align: center;
     }
 
     .main h1{
@@ -141,11 +154,13 @@
 
   .main table{
     font-size: 30px;
+    margin: auto;
   }
 
   .main table td{
     padding: 3%;
     color: #e0e0e0;
+    text-align: center;
   }
 
   
@@ -273,7 +288,7 @@ footer img{
   
   .profile h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     margin-left:190px;
     margin-top: -150px;
     margin-bottom: 140px;
@@ -282,7 +297,7 @@ footer img{
 
   .profile h3{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
 
   }
 
@@ -304,7 +319,6 @@ footer img{
     background-repeat: no-repeat;
 	background-position: left center;
     padding-left: 32px;
-    font-size: 25px;
     line-height: 1.9;
   }
   
@@ -339,7 +353,7 @@ footer img{
   }
 
   .main h1{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .main p{
@@ -353,7 +367,7 @@ footer img{
   }
 
   .main table{
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .main table td{
