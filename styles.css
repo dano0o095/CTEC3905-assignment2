@@ -33,7 +33,6 @@ font-family: 'Syncopate', sans-serif;
 /*GLOBAL STYLES*/
 
     body{
-      background-color: #123456;
       color: white;
       margin: auto;
       margin-top: 3%;
@@ -95,7 +94,7 @@ font-family: 'Syncopate', sans-serif;
       margin-top: 100px;
       margin-bottom: 10%;
       padding-bottom: 2%;
-      box-shadow: 15px 15px 25px #4b2957;
+      box-shadow:  0 30px 25px #4b2957;
     }
 
     .profile img{
@@ -136,7 +135,7 @@ font-family: 'Syncopate', sans-serif;
   /*  MAIN BODY STYLES*/
     .main{
       background-color: cadetblue;
-      box-shadow: 15px 15px 25px #436e70;
+    box-shadow: 0 30px 25px  #436e70;
       padding-left: 2%;
       padding-right: 2%;
       padding-bottom: 3%;
@@ -209,7 +208,6 @@ footer img{
   body{
     float:left;
     margin:auto;
-    background-color: #123456;
     color: white;
     margin: auto;
   }
@@ -267,6 +265,7 @@ footer img{
     padding-left:15px;
     padding-right: 15px;
     border-bottom: 5px solid  #395e60;
+    z-index: 1;  /*required to keep the rotated text from overlapping the nav bar*/
   }
 
   
@@ -283,7 +282,7 @@ footer img{
     padding-bottom: 2%;
     width:30%;
     float:left;
-    box-shadow: 15px 15px 25px #4b2957;
+    box-shadow: 0 2px 55px 5px #4b2957;
   }
   
   .profile img{
@@ -298,7 +297,7 @@ footer img{
     margin-left:190px;
     margin-top: -150px;
     margin-bottom: 140px;
-    transform: rotate(270deg);
+    transform: rotate(-90deg);
   }
 
   .profile h3{
@@ -350,7 +349,7 @@ footer img{
 /*  MAIN BODY STYLES*/
   .main{
     background-color: cadetblue;
-    box-shadow: 15px 15px 25px #436e70;
+    box-shadow: 0 2px 55px 5px #436e70;
     overflow: hidden;
     padding-left: 2%;
     padding-right: 2%;
