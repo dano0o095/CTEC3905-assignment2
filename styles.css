@@ -13,6 +13,7 @@ font-family: 'Syncopate', sans-serif;
 
 .nav a{
   color: black;
+  font-weight: bold;
   text-decoration: none;
 }
 .nav a:hover{
@@ -23,13 +24,15 @@ font-family: 'Syncopate', sans-serif;
   border-top-right-radius: 15px;
 }
 
+.nav a:current{
+  background-color: red;
+}
 
 
 
 
 
 /*MOBILE SIZING*/
-@media(max-device-width:480px){
 /*GLOBAL STYLES*/
 
     body{
@@ -95,6 +98,7 @@ font-family: 'Syncopate', sans-serif;
       margin-bottom: 10%;
       padding-bottom: 2%;
       box-shadow:  0 30px 25px #4b2957;
+      overflow: hidden;
     }
 
     .profile img{
@@ -144,6 +148,7 @@ font-family: 'Syncopate', sans-serif;
     }
 
     .main h1{
+      padding-top: 80px;
       font-size: 70px;
     }
 
@@ -153,6 +158,7 @@ font-family: 'Syncopate', sans-serif;
 
     .main .pDate{
       background-color: orange;
+      color: white;
       padding: 8px;
       border-radius: 14px;
     }
@@ -168,7 +174,9 @@ font-family: 'Syncopate', sans-serif;
     text-align: center;
   }
 
-  
+ 
+
+/*FOOTER */
   footer{
   width: 100%;
   text-align: center;
@@ -182,9 +190,7 @@ footer img{
   padding-top: 5%;
   width: 7%;
   display: block;
-  margin: auto;;
-}
-  
+  margin: auto;
 }
 
 
@@ -199,7 +205,7 @@ footer img{
 
 
 
-/*DESKTOP SIZING*/
+/*BREAK POINT - DESKTOP SIZING*/
 
 @media(min-device-width:481px){
   
@@ -209,48 +215,29 @@ footer img{
     float:left;
     margin:auto;
     color: white;
-    margin: auto;
   }
-  
 
-    hr{
-      width: 90%;  
-      border: 1px solid #436d70;
-      margin:3%;
-    }
-
-
-    h1{
-      color: white;
-      margin: 0px;
-    }
   
 /*  HEADER IMAGE */
   .headerImg{
+    display: block;
     height: 400px;
   }
   .headerImg img{
     height: 100%;
-    width: 100%
+    width: 100%;
   }
   
   
 /*  NAV STYLES*/
   .nav{
+    position: relative;
     margin: auto;
-    text-align: center;
-    background-color:#bfd8d9;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left:15px;
-    padding-right: 15px;
-    border-bottom: 5px solid  #395e60;
+    width: auto;
   }
   
     .nav a{
     font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
   
   .fixed-nav nav{
@@ -275,11 +262,9 @@ footer img{
   
   /*  PROFILE STYLES*/
   .profile{
-    background-color: #754087;
     margin-top: 6%;
     margin-bottom: 100%;
     margin-right: 30px;
-    padding-bottom: 2%;
     width:30%;
     float:left;
     box-shadow: 0 2px 55px 5px #4b2957;
@@ -288,11 +273,9 @@ footer img{
   .profile img{
     width:45%;
     margin-left: 60px;
-    padding-top: 3%;
   }
   
   .profile h2{
-    text-align: center;
     font-size: 35px;
     margin-left:190px;
     margin-top: -150px;
@@ -306,14 +289,6 @@ footer img{
 
   }
 
-  .firstWord{
-    color: orange;
-  }
-
-  .profile ul{
-    list-style-type: none;
-    color: #e0e0e0;
-  } 
   
   #prof{
     margin-top: -50px;
@@ -322,11 +297,14 @@ footer img{
   .profList{  
     background-size: 20px;
     background-repeat: no-repeat;
-	background-position: left center;
-    padding-left: 32px;
+	background-position: left;
+    text-align:left;
+    padding-left: 30px;
     line-height: 1.9;
   }
   
+  
+  /*IMAGES FOR PROFILE DEATILS*/
   .work{
     background-image: url("./imgs/briefcase.png");
   }
@@ -348,29 +326,18 @@ footer img{
   
 /*  MAIN BODY STYLES*/
   .main{
-    background-color: cadetblue;
     box-shadow: 0 2px 55px 5px #436e70;
     overflow: hidden;
-    padding-left: 2%;
-    padding-right: 2%;
     margin-top: 6%;
     width:60%;
   }
 
   .main h1{
+    padding-top: 18px;
     font-size: 40px;
   }
 
-  .main p{
-    color: #e0e0e0;
-  }
 
-  .main .pDate{
-    background-color: orange;
-    color: white;
-    padding: 8px;
-    border-radius: 14px;
-  }
 
   .main table{
     font-size: 15px;
@@ -378,22 +345,17 @@ footer img{
 
   .main table td{
     padding: 3%;
-    color: #e0e0e0;
   }
-  
-  footer{
-  width: 100%;
-  text-align: center;
-  background-color: black;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  margin-top: 3%;
-}
 
-footer img{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-  
 
+  footer img{
+    width: 2.5%;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline;
+    margin: auto;
+  }
 }

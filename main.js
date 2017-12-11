@@ -3,7 +3,7 @@
 (function(){
 
 const nav = document.querySelector('#navBar');
-const topOfNav = nav.offsetTop;
+const topOfNav = nav.offsetTop + 400;
 
   window.addEventListener('scroll', function(e) {
   if(window.scrollY >= topOfNav){
