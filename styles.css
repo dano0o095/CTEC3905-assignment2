@@ -11,22 +11,7 @@ h1, h2, h3{
 font-family: 'Syncopate', sans-serif;
 }
 
-.nav a{
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-.nav a:hover{
-  background-color: #395e60;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
 
-.nav a:current{
-  background-color: red;
-}
 
 
 
@@ -43,7 +28,7 @@ font-family: 'Syncopate', sans-serif;
 
     hr{
       width: 90%;  
-      border: 1px solid #436d70;
+      border: 1px solid #CAD178;
       margin:3%;
     }
 
@@ -67,14 +52,14 @@ font-family: 'Syncopate', sans-serif;
   /*  NAV BAR*/
     .nav{
       position: fixed;
-      background-color:#bfd8d9;
+      background-color: #CAD178;
       margin-top: -102px;
       margin-bottom: 3%;
       padding-top: 15px;
       padding-bottom: 15px;
       padding-left:15px;
       padding-right: 15px;
-      border-bottom: 5px solid  #395e60;
+      border-bottom: 5px solid  #957964;
       text-align: center;
       width: 100%;
     }
@@ -83,6 +68,21 @@ font-family: 'Syncopate', sans-serif;
       font-size: 40px;
       margin-left: 40px;
       margin-right: 40px;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav a:hover{
+      background-color: #957964;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .nav a:current{
+      background-color: red;
     }
 
 
@@ -93,11 +93,11 @@ font-family: 'Syncopate', sans-serif;
 
   /*  PROFILE STYLES*/
     .profile{
-      background-color: #754087;
+      background-color: #603140;
       margin-top: 100px;
       margin-bottom: 10%;
       padding-bottom: 2%;
-      box-shadow:  0 30px 25px #4b2957;
+      box-shadow:  0 30px 25px #8C465C;
       overflow: hidden;
     }
 
@@ -138,8 +138,8 @@ font-family: 'Syncopate', sans-serif;
 
   /*  MAIN BODY STYLES*/
     .main{
-      background-color: cadetblue;
-    box-shadow: 0 30px 25px  #436e70;
+      background-color: #C7AA74;
+      box-shadow: 0 30px 25px  #CCA866;
       padding-left: 2%;
       padding-right: 2%;
       padding-bottom: 3%;
@@ -246,12 +246,12 @@ footer img{
     margin-top:-430px;
     margin-left: -30px;
     text-align: center;
-    background-color:#bfd8d9;
+    background-color:#D3D57C;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left:15px;
     padding-right: 15px;
-    border-bottom: 5px solid  #395e60;
+    border-bottom: 5px solid  #957964;
     z-index: 1;  /*required to keep the rotated text from overlapping the nav bar*/
   }
 
@@ -267,7 +267,7 @@ footer img{
     margin-right: 30px;
     width:30%;
     float:left;
-    box-shadow: 0 2px 55px 5px #4b2957;
+    box-shadow: 0 2px 55px 5px #8C465C;
   }
   
   .profile img{
@@ -326,7 +326,7 @@ footer img{
   
 /*  MAIN BODY STYLES*/
   .main{
-    box-shadow: 0 2px 55px 5px #436e70;
+    box-shadow: 0 2px 55px 5px #CCA866;
     overflow: hidden;
     margin-top: 6%;
     width:60%;
