@@ -4,27 +4,23 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
 
 
-html, body{
-  font-family: 'Alegreya Sans SC', sans-serif;
-}
-h1, h2, h3{
-font-family: 'Syncopate', sans-serif;
-}
-
-
-
-
-
-
-
-/*MOBILE SIZING*/
 /*GLOBAL STYLES*/
+
+
+    html, body{
+      font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    h1, h2, h3{
+      font-family: 'Syncopate', sans-serif;
+    }
 
     body{
       color: white;
       margin: auto;
       margin-top: 3%;
     }
+
 
     hr{
       width: 90%;  
@@ -80,11 +76,6 @@ font-family: 'Syncopate', sans-serif;
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
     }
-
-    .nav a:current{
-      background-color: red;
-    }
-
 
 
 
@@ -153,7 +144,7 @@ font-family: 'Syncopate', sans-serif;
     }
 
   .main p{
-    color: #e0e0e0;
+    color: #f2f2f2;
   }
 
     .main .pDate{
@@ -164,13 +155,13 @@ font-family: 'Syncopate', sans-serif;
     }
 
   .main table{
-    font-size: 30px;
+    font-size: 40px;
     margin: auto;
   }
 
   .main table td{
     padding: 3%;
-    color: #e0e0e0;
+    color: #f2f2f2;
     text-align: center;
   }
 
@@ -246,10 +237,10 @@ footer img{
     margin-top:-430px;
     margin-left: -30px;
     text-align: center;
-    background-color:#D3D57C;
+    background-color:#CAD178;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left:15px;
+    padding-left: 15px;
     padding-right: 15px;
     border-bottom: 5px solid  #957964;
     z-index: 1;  /*required to keep the rotated text from overlapping the nav bar*/
