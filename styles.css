@@ -43,7 +43,6 @@ display: none;
 
 
 
-
 /*  NAV BAR*/
 .nav{
   position: fixed;
@@ -82,7 +81,6 @@ display: none;
 
 /*hamburger menu*/
 
-
 .show-menu{
   display: block;
 }
@@ -112,13 +110,7 @@ nav {
 }*/
 /* END FIRST BREAKPOINT */
 
-
-
-
-
-
-
-  
+ 
 
 
   /*  PROFILE STYLES*/
@@ -164,6 +156,12 @@ nav {
 }
 
 
+
+/*GOOGLE MAPS*/
+#map {
+  height: 400px;
+  margin-bottom: -25px;
+ }
 
 
 
@@ -369,6 +367,10 @@ footer img{
     background-image: url("./imgs/email.png");
   }
   
+  #map{
+    margin-top: 6%;
+    margin-bottom: -25px;
+  }
   
   
   
