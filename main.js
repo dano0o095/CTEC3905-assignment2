@@ -17,6 +17,30 @@ const topOfNav = nav.offsetTop + 400;
 
 
 
+/*HAMBURGER  MENU*/
+(function(){
+
+  let menuButton = document.getElementById("menu");
+  let navMenu = document.getElementById("navBar");
+
+  menuButton.addEventListener("click", toggleMenu);
+
+  let toggle = false; // hidden at first
+  function toggleMenu(){
+    if (toggle) { // true: it's visible
+      navMenu.style.backgroundColor = "#CAD178";
+      navMenu.classList.remove("show-menu"), // hide it
+      toggle = false
+    }
+    else { // false: it's hidden
+      navMenu.classList.add("show-menu"), // show it
+      toggle = true
+    }
+  }
+
+})();
+
+
 /* Scroll to a certain element*/
 /*let education = document.getElementById('education');
 let marginY = 0;
