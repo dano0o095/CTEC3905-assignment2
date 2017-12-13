@@ -159,7 +159,7 @@ nav {
 
 /*GOOGLE MAPS*/
 #map {
-  height: 400px;
+  height: 600px;;
   margin-bottom: -25px;
  }
 
@@ -368,6 +368,7 @@ footer img{
   }
   
   #map{
+    height: 400px;
     margin-top: 6%;
     margin-bottom: -25px;
   }
