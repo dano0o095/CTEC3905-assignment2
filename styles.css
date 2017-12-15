@@ -52,6 +52,10 @@ display: none;
   padding-left:15px;
   padding-right: 15px;
   text-align: center;
+  width: 100%;
+  margin-top: -47px;
+  margin-left: -15px;
+  z-index: 1;
 }
 
 
@@ -67,8 +71,6 @@ display: none;
 }
 
 .nav a:hover{
-  padding-bottom: 20px;
-  padding-top: 10px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -76,7 +78,7 @@ display: none;
 .nav img{
   float: left;
   margin-left: -100px;
-  width: 45%;
+  width: 25%;
 }
 
 /*hamburger menu*/
@@ -276,6 +278,8 @@ footer img{
   
   .nav a:hover{    
   background-color: #957964;
+  padding-bottom: 20px;
+  padding-top: 10px;
   }
   
    nav {
