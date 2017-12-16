@@ -102,15 +102,7 @@ nav {
 }
 
 
-/* FIRST BREAKPOINT (MEDIUM SIZE) */
-/*@media screen and (min-width: 500px) {
 
-  nav a {
-    width: 44%;
-    display: inline-block;
-  }
-}*/
-/* END FIRST BREAKPOINT */
 
  
 
@@ -274,183 +266,343 @@ footer img{
 
 
 
+/*BREAK POINT FOR TABLETS*/
+@media(min-device-width:480px){
+/*  GLOBAL STYLES*/
+body{
+  float:left;
+  margin:auto;
+  color: white;
+}
+
+
+/*  HEADER IMAGE */
+.headerImg{
+  display: block;
+  height: 400px;
+}
+.headerImg img{
+  height: 100%;
+  width: 100%;
+}
+  
+  
+/*  NAV STYLES*/
+.nav{
+  position: fixed;
+  margin-top: -450px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.nav a{
+  font-size: 20px;
+}
+
+  #menu img{
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+
+#menu {
+  width: 50%;
+  display: block; 
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+  
+  
+  
+  
+
+/*  PROFILE STYLES*/
+.profile{
+  margin-top: 6%;
+  margin-bottom: 100%;
+  margin-right: 30px;
+  width:30%;
+  float:left;
+  box-shadow: 0 2px 55px 5px #8C465C;
+}
+
+.profile img{
+  width:45%;
+  margin-left: 60px;
+}
+
+.profile h2{
+  font-size: 35px;
+  margin-left:190px;
+  margin-top: -150px;
+  margin-bottom: 140px;
+  transform: rotate(-90deg);
+}
+
+.profile h3{
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+
+#prof{
+  margin-top: -50px;
+}
+
+.profList{  
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align:left;
+  padding-left: 30px;
+  line-height: 1.9;
+}
+
+
+/*IMAGES FOR PROFILE DEATILS*/
+.work{
+  background-image: url("./imgs/briefcase.png");
+}
+
+.education{
+  background-image: url("./imgs/education.png");
+}
+
+.phone{
+  background-image: url("./imgs/phone.png");
+}
+
+.email{
+  background-image: url("./imgs/email.png");
+}
+
+#map{
+  height: 300px;
+  margin-top: 6%;
+  margin-bottom: -25px;
+}
+
+
+
+/*  MAIN BODY STYLES*/
+.main{
+  box-shadow: 0 2px 55px 5px #CCA866;
+  overflow: hidden;
+  margin-top: 6%;
+  width:60%;
+}
+
+.main h1{
+  padding-top: 18px;
+  font-size: 40px;
+}
+
+
+
+.main table{
+  font-size: 15px;
+}
+
+.main table td{
+  padding: 3%;
+}
+
+
+footer img{
+  width: 2.5%;
+  padding-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline;
+  margin: auto;
+}
+}
+
+
+
+
+
 
 
 
 
 /*BREAK POINT - DESKTOP SIZING*/
 
-@media(min-device-width:481px){
-  
-  
+@media(min-device-width:1000px){
+
+
 /*  GLOBAL STYLES*/
-  body{
-    float:left;
-    margin:auto;
-    color: white;
-  }
+body{
+  float:left;
+  margin:auto;
+  color: white;
+}
 
-  
+
 /*  HEADER IMAGE */
-  .headerImg{
-    display: block;
-    height: 400px;
-  }
-  .headerImg img{
-    height: 100%;
-    width: 100%;
-  }
-  
-  
+.headerImg{
+  display: block;
+  height: 400px;
+}
+.headerImg img{
+  height: 100%;
+  width: 100%;
+}
+
+
 /*  NAV STYLES*/
-  .nav{    
-    background-color: #CAD178;
-    border-bottom: 5px solid  #957964;
-    position: relative;
-    margin: auto;
-    width: auto;
-  }
-  
-  .nav a{
-    display: inline;
-    font-size: 30px;
-  }
-  
-  .nav a:hover{    
-  background-color: #957964;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  }
-  
-   nav {
-    display: block;
-  }
-  
-   #menu {
-    display: none;
-  }
-  
-  .fixed-nav nav{
-    position: fixed;
-    width:100%;
-    margin-top:-430px;
-    margin-left: -30px;
-    text-align: center;
-    background-color:#CAD178;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-bottom: 5px solid  #957964;
-    z-index: 1;  /*required to keep the rotated text from overlapping the nav bar*/
-  }
+.nav{    
+  background-color: #CAD178;
+  border-bottom: 5px solid  #957964;
+  position: relative;
+  margin: auto;
+  width: auto;
+}
 
-  
-  
-  
-  
-  
-  /*  PROFILE STYLES*/
-  .profile{
-    margin-top: 6%;
-    margin-bottom: 100%;
-    margin-right: 30px;
-    width:30%;
-    float:left;
-    box-shadow: 0 2px 55px 5px #8C465C;
-  }
-  
-  .profile img{
-    width:45%;
-    margin-left: 60px;
-  }
-  
-  .profile h2{
-    font-size: 35px;
-    margin-left:190px;
-    margin-top: -150px;
-    margin-bottom: 140px;
-    transform: rotate(-90deg);
-  }
+.nav a{
+  display: inline;
+  font-size: 30px;
+}
 
-  .profile h3{
-    margin-left: 20px;
-    font-size: 20px;
+.nav a:hover{    
+background-color: #957964;
+padding-bottom: 20px;
+padding-top: 10px;
+}
 
-  }
+ nav {
+  display: block;
+}
 
-  
-  #prof{
-    margin-top: -50px;
-  }
-  
-  .profList{  
-    background-size: 20px;
-    background-repeat: no-repeat;
-	background-position: left;
-    text-align:left;
-    padding-left: 30px;
-    line-height: 1.9;
-  }
-  
-  
-  /*IMAGES FOR PROFILE DEATILS*/
-  .work{
-    background-image: url("./imgs/briefcase.png");
-  }
-  
-  .education{
-    background-image: url("./imgs/education.png");
-  }
-  
-  .phone{
-    background-image: url("./imgs/phone.png");
-  }
-  
-  .email{
-    background-image: url("./imgs/email.png");
-  }
-  
-  #map{
-    height: 300px;
-    margin-top: 6%;
-    margin-bottom: -25px;
-  }
-  
-  
-  
+ #menu {
+  display: none;
+}
+
+.fixed-nav nav{
+  position: fixed;
+  width:100%;
+  margin-top:-430px;
+  margin-left: -30px;
+  text-align: center;
+  background-color:#CAD178;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 5px solid  #957964;
+  z-index: 1;  /*required to keep the rotated text from overlapping the nav bar*/
+}
+
+
+
+
+
+
+/*  PROFILE STYLES*/
+.profile{
+  margin-top: 6%;
+  margin-bottom: 100%;
+  margin-right: 30px;
+  width:30%;
+  float:left;
+  box-shadow: 0 2px 55px 5px #8C465C;
+}
+
+.profile img{
+  width:45%;
+  margin-left: 60px;
+}
+
+.profile h2{
+  font-size: 35px;
+  margin-left:190px;
+  margin-top: -150px;
+  margin-bottom: 140px;
+  transform: rotate(-90deg);
+}
+
+.profile h3{
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+
+#prof{
+  margin-top: -50px;
+}
+
+.profList{  
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align:left;
+  padding-left: 30px;
+  line-height: 1.9;
+}
+
+
+/*IMAGES FOR PROFILE DEATILS*/
+.work{
+  background-image: url("./imgs/briefcase.png");
+}
+
+.education{
+  background-image: url("./imgs/education.png");
+}
+
+.phone{
+  background-image: url("./imgs/phone.png");
+}
+
+.email{
+  background-image: url("./imgs/email.png");
+}
+
+#map{
+  height: 300px;
+  margin-top: 6%;
+  margin-bottom: -25px;
+}
+
+
+
 /*  MAIN BODY STYLES*/
-  .main{
-    box-shadow: 0 2px 55px 5px #CCA866;
-    overflow: hidden;
-    margin-top: 6%;
-    width:60%;
-  }
+.main{
+  box-shadow: 0 2px 55px 5px #CCA866;
+  overflow: hidden;
+  margin-top: 6%;
+  width:60%;
+}
 
-  .main h1{
-    padding-top: 18px;
-    font-size: 40px;
-  }
-
-
-
-  .main table{
-    font-size: 15px;
-  }
-
-  .main table td{
-    padding: 3%;
-  }
+.main h1{
+  padding-top: 18px;
+  font-size: 40px;
+}
 
 
-  footer img{
-    width: 2.5%;
-    padding-top: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: inline;
-    margin: auto;
-  }
+
+.main table{
+  font-size: 15px;
+}
+
+.main table td{
+  padding: 3%;
+}
+
+
+footer img{
+  width: 2.5%;
+  padding-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline;
+  margin: auto;
+}
 }
