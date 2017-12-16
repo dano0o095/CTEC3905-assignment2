@@ -207,6 +207,42 @@ nav {
   text-align: center;
 }
 
+/*accordian*/
+.accordion {
+  max-height: 50%;
+  font-size: 40px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #CCA166;
+    display: none;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
 
 /*FOOTER */
@@ -372,7 +408,7 @@ footer img{
   }
   
   #map{
-    height: 400px;
+    height: 300px;
     margin-top: 6%;
     margin-bottom: -25px;
   }
