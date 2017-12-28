@@ -81,7 +81,9 @@ display: none;
   width: 25%;
 }
 
-/*hamburger menu*/
+
+
+/*HAMBURGER MENU*/
 
 .show-menu{
   display: block;
@@ -107,7 +109,7 @@ nav {
  
 
 
-  /*  PROFILE STYLES*/
+  /*  PROFILE STYLES (SIDE BAR)*/
 .profile{
   background-color: #603140;
   margin-bottom: 10%;
@@ -134,7 +136,7 @@ nav {
 }
 
 #emailLink{
-  color: red;
+  color: deepskyblue;
 }
 
 .profile h2{
@@ -199,7 +201,9 @@ nav {
   text-align: center;
 }
 
-/*accordian*/
+
+
+/*ACCORDION*/
 .accordion {
   max-height: 50%;
   font-size: 40px;
@@ -268,6 +272,7 @@ footer img{
 
 /*BREAK POINT FOR TABLETS*/
 @media(min-device-width:480px){
+  
 /*  GLOBAL STYLES*/
 body{
   float:left;
@@ -285,6 +290,8 @@ body{
   height: 100%;
   width: 100%;
 }
+  
+  
   
   
 /*  NAV STYLES*/
@@ -317,7 +324,7 @@ body{
   
   
 
-/*  PROFILE STYLES*/
+/*  PROFILE STYLES (SIDE BAR)*/
 .profile{
   margin-top: 6%;
   margin-bottom: 100%;
@@ -354,7 +361,7 @@ body{
 }
 
 
-/*IMAGES FOR PROFILE DEATILS*/
+/*IMAGES FOR PROFILE LIST ELEMENTS (REPLACE BULLET POINTS)*/
 .work{
   background-image: url("./imgs/briefcase.png");
 }
@@ -371,6 +378,7 @@ body{
   background-image: url("./imgs/email.png");
 }
 
+/*  GOOGLE MAPS*/
 #map{
   height: 300px;
   margin-top: 6%;
@@ -378,6 +386,7 @@ body{
 }
 
 
+  
 
 /*  MAIN BODY STYLES*/
 .main{
@@ -407,6 +416,8 @@ body{
   }
 
 
+  
+/*  FOOTER*/
 footer img{
   width: 2.5%;
   padding-top: 0;
@@ -418,6 +429,8 @@ footer img{
   margin: auto;
 }
 }
+
+
 
 
 
@@ -499,7 +512,7 @@ padding-top: 10px;
 
 
 
-/*  PROFILE STYLES*/
+/*  PROFILE STYLES (SIDE BAR)*/
 .profile{
   margin-top: 6%;
   margin-bottom: 100%;
@@ -542,24 +555,6 @@ padding-top: 10px;
   line-height: 1.9;
 }
 
-
-/*IMAGES FOR PROFILE DEATILS*/
-.work{
-  background-image: url("./imgs/briefcase.png");
-}
-
-.education{
-  background-image: url("./imgs/education.png");
-}
-
-.phone{
-  background-image: url("./imgs/phone.png");
-}
-
-.email{
-  background-image: url("./imgs/email.png");
-}
-
 #map{
   height: 300px;
   margin-top: 6%;
@@ -591,7 +586,7 @@ padding-top: 10px;
   padding: 3%;
 }
 
-
+/* FOOTER*/
 footer img{
   width: 2.5%;
   padding-top: 0;

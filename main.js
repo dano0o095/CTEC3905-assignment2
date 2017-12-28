@@ -2,9 +2,10 @@
 (function(){
 
 const nav = document.querySelector('#navBar');
-const topOfNav = nav.offsetTop + 400;
+const topOfNav = nav.offsetTop + 400; /*set the top offset*/
 
   window.addEventListener('scroll', function(e) {
+    /*if scrolled past the nav bar then make it fixed, else not fixed*/
   if(window.scrollY >= topOfNav){
     document.body.classList.add('fixed-nav');
   }else{
@@ -64,7 +65,7 @@ document.addEventListener("click", function(evt) {
 
 /*GOOGLE MAPS API*/
  function initMap() {
-    let uluru = {lat: 52.629934, lng: -1.139419};
+    let uluru = {lat: 52.629934, lng: -1.139419}; /*set the location the pins dropped on*/
     let map = new google.maps.Map(document.getElementById('map'), {
       zoom: 16,
       center: uluru
