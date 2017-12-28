@@ -1,4 +1,4 @@
-# ** __ IMPORTANT! __ ** #
+# * _ IMPORTANT! _ * #
   to ensure it ###RESIZES### correctly as you change the window size, please use the device toolbar (ctrl + shift + M) in chrome (also found in the inspect element development tools area) as im using min-device-width as appose to min-width in the @media tag.
   
   ### pre-development designs: ###
@@ -14,6 +14,6 @@
 #### mobile ####
 ![alt text](./imgs/mobileFinish.png "mobile design")
 #### tablet ####
-![alt text](./imgs/tabletFinish.png "mobile design")
+![alt text](./imgs/tabletFinished.png "mobile design")
 #### desktop ####
 ![alt text](./imgs/desktopFinish.png "mobile design")
