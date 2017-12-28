@@ -1,5 +1,4 @@
 /*STICKY NAV BAR*/
-
 (function(){
 
 const nav = document.querySelector('#navBar');
@@ -18,14 +17,15 @@ const topOfNav = nav.offsetTop + 400;
 
 
 /*HAMBURGER  MENU*/
+
+  let navMenu = document.getElementById("navBar");
+  let toggle = false; // hidden at first
 (function(){
 
   let menuButton = document.getElementById("menu");
-  let navMenu = document.getElementById("navBar");
 
   menuButton.addEventListener("click", toggleMenu);
 
-  let toggle = false; // hidden at first
   function toggleMenu(){
     if (toggle) { // true: it's visible
       navMenu.classList.remove("show-menu"), // hide it
@@ -40,14 +40,25 @@ const topOfNav = nav.offsetTop + 400;
 
 })();
 
-/*any click ouside the menu will close it*/
-/*let specifiedElement = document.querySelector('navBar');
-document.addEventListener('click', function(event) {
-  let isClickInside = specifiedElement.contains(event.target);
-  if (!isClickInside && nav.className == "show-menu") {
-    nav.className = "";
-  } 
-});*/
+
+/*  CLICKING THE LINK CLOSES THE NAV BAR*/
+let clicks = 0;
+document.addEventListener("click", function(evt) {  
+  let flyoutElement = document.getElementById('navBar'),
+      targetElement = evt.target;  // clicked element
+
+  do {
+      if (targetElement == flyoutElement) {
+          // Click inside the nav
+        navMenu.classList.remove("show-menu")
+        toggle = false;
+          return;
+      }
+      // Go up the DOM
+      targetElement = targetElement.parentNode;
+  } while (targetElement);
+
+});
 
 
 

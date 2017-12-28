@@ -327,17 +327,10 @@ body{
   box-shadow: 0 2px 55px 5px #8C465C;
 }
 
-.profile img{
-  width:45%;
-  margin-left: 60px;
-}
-
 .profile h2{
   font-size: 35px;
-  margin-left:190px;
-  margin-top: -150px;
-  margin-bottom: 140px;
-  transform: rotate(-90deg);
+  margin-top: auto;
+  margin-bottom: 70px;
 }
 
 .profile h3{
@@ -408,6 +401,10 @@ body{
 .main table td{
   padding: 3%;
 }
+  
+  .accordion{
+    font-size: 20px;
+  }
 
 
 footer img{
